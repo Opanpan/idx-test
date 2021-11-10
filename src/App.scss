@@ -31,6 +31,12 @@
   }
 }
 
+.CustomImg {
+  @media screen and (max-width: 768px) {
+    width: 100vw;
+  }
+}
+
 .CustomBtn {
   margin-top: 25px;
   width: 150px;
@@ -39,4 +45,13 @@
   color: white;
   padding: 10px;
   border-radius: 20px;
+  transition: 100ms;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+
+  &:active {
+    transform: scale(1);
+  }
 }

@@ -4,10 +4,10 @@ import ImageOne from "../assets/image1.png";
 export default function MainSection() {
   return (
     <Row style={{ marginTop: "100px", padding: "0 10%" }}>
-      <Col className="mx-5">
-        <Image style={{ width: "100%" }} src={ImageOne} />
+      <Col className="d-flex justify-content-xl-end justify-content-center">
+        <Image className="CustomImg" src={ImageOne} />
       </Col>
-      <Col>
+      <Col className="d-flex justify-content-xl-start justify-content-center">
         <div className="RightSection">
           <h1>Grow Your Business with Our Solutions.</h1>
           <h5>
